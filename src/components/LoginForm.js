@@ -28,7 +28,8 @@ handleSubmit = (event) => {
 
   render() {
     return (
-      <form>
+      //<form>
+      <form onSubmit={this.handleSubmit}>
         <div>
           <label>
             Username
