@@ -40,7 +40,7 @@ handleSubmit = (event) => {
         <div>
           <label>
             Password
-            <input id="password" name="password" type="password"   value={this.state.username}
+            <input id="password" name="password" type="password"  value={this.state.password} 
               onChange={this.handleInputChange} />
           </label>
         </div>
