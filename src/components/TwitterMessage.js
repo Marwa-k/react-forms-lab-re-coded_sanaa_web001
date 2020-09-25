@@ -8,7 +8,11 @@ class TwitterMessage extends React.Component {
   this.state = {
     message: ""  };
   }
-
+  handleChange = event => {
+   this.setState({
+     [event.target.name]: event.target.value
+   })
+ }
   render() {
     return (
       <div>
